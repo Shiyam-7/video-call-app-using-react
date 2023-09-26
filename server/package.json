@@ -1,9 +1,24 @@
 {
-  "dependencies": {
+    "name": "video-call-app-using-react",
+    "version": "1.0.0",
+    "description": "",
+    "dependencies": {
     "socket.io": "^4.7.2"
   },
   "type": "module"
-  "scripts": {
+    "scripts": {
+        "build": "echo \"No build specified\" && exit 1",
+        "test": "echo \"No test specified\" && exit 1",
         "start": "node index.js"
-  },
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Shiyam-7/video-call-app-using-react.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Shiyam-7/video-call-app-using-react/issues"
+    },
+    "homepage": "https://github.com/Shiyam-7/video-call-app-using-react"
 }
