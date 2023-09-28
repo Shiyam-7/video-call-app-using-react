@@ -21,7 +21,7 @@ const LobbyScreen = () => {
   const handleJoinRoom = useCallback(
     (data) => {
       const { email, room } = data;
-      navigate(`https://video-call-app-using-react-api.vercel.app/room/${room}`);
+      navigate(`/room/${room}`);
     },
     [navigate]
   );
