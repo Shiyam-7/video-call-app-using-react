@@ -1,7 +1,10 @@
 import { Server } from "socket.io";
+import cors from 'cors';
 
 const io = new Server(8000, {
-  cors: true,
+  cors: {
+    origin: "https://video-call-app-using-react-brmvn5sh8-shiyam-7s-projects.vercel.app/"
+  }
 });
 
 const emailToSocketIdMap = new Map();
