@@ -3,7 +3,7 @@ import cors from 'cors';
 
 const io = new Server(8000, {
   cors: {
-    origin: "https://video-call-app-using-react.vercel.app",
+    origin: "*",
     methods: [ "GET", "POST" ]
   }
 });
