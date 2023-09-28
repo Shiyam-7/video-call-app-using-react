@@ -3,7 +3,7 @@ import cors from 'cors';
 
 const io = new Server(8000, {
   cors: {
-    origin: "https://video-call-app-using-react-brmvn5sh8-shiyam-7s-projects.vercel.app/"
+    origin: "*"
   }
 });
 
